@@ -47,10 +47,10 @@ vim.opt.wildmode = 'list:longest'
 -- don't suggest files like there:
 vim.opt.wildignore = '.hg,.svn,*~,*.png,*.jpg,*.gif,*.min.js,*.swp,*.o,vendor,dist,_site'
 -- tabs: go big or go home
-vim.opt.shiftwidth = 8
-vim.opt.softtabstop = 8
-vim.opt.tabstop = 8
-vim.opt.expandtab = false
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+vim.opt.tabstop = 4
+vim.opt.expandtab = true
 -- case-insensitive search/replace
 vim.opt.ignorecase = true
 -- unless uppercase in search term

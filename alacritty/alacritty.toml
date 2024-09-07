@@ -75,5 +75,5 @@ history = 0
 
 [window]
 padding = { x = 10, y = 10 }
-startup_mode = "SimpleFullscreen"
-decorations = "None"
+startup_mode = "Windowed"
+decorations = "Full"
